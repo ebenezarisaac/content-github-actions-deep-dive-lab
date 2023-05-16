@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs: ubuntu-runner
+    runs-on: ubuntu-runner
     env:
       BUCKET_NAME: cfst-3457-3e876c2eaf9df0466ffeb9ea2-nonprodbucket-6oi9v2jt4yex
     steps:
